@@ -24,6 +24,8 @@
 
 - ./export_incap.py
 - Enter a start date and an end date (Since the incapsula's API is pretty slow I recommend not to exceed one month)
+- Input a website Number
+- Wait the fetching to be done.
 - The output will be a Json file, 100 events max per line.
 
 ### 3 - Parsing the json file to a human/splunk friendly file
@@ -33,7 +35,7 @@
 
 ### 4 - Sample files
 
-- You can find one .json sample which is the Output of export_incap.py. You can parse this .json with parsed.py And produce .txt file
+- You can find one .json sample which is the Output of export_incap.py You can parse it with parsed.py.
 
-- You can find 2017-10-XX-website-1.text, which is the output of parsed.py.
+- You can find 2017-10-XX-website-1.txt, which is the output of parsed.py.
 
