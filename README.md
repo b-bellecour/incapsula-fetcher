@@ -1,5 +1,7 @@
 # Incapsula event fetcher
 
+Connecting to Imperva's Incapsula API, this script Fetch and parse the WAF events.
+
 ## Prerequisite
 
 - Linux / Unix kernel
